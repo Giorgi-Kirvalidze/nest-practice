@@ -1,6 +1,10 @@
-import {Column, Entity, OneToMany, OneToOne, PrimaryGeneratedColumn} from 'typeorm';
-import User from "./user.entity";
-import Post from "../posts/post.entity";
+import {
+  Column,
+  Entity,
+  OneToOne,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
+import User from './user.entity';
 
 @Entity()
 class Address {
